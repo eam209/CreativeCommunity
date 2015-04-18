@@ -1,3 +1,4 @@
+<main>
 <h1>Agregar Nuevo Post</h1>
 
 <?= form_open('/posts/recibirdatos') ?>
@@ -61,3 +62,4 @@
 	</tr>
 </table>
 <? form_close() ?>
+</main>

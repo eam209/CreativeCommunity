@@ -1,3 +1,4 @@
+<main>
 <h1>Actualizar Post</h1>
 
 <?= form_open("/posts/actualizar/".$id) ?>
@@ -78,3 +79,4 @@
 		margin: 0 auto;
 	}
 </style>
+</main>

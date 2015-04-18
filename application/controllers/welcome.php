@@ -9,17 +9,10 @@ class Welcome extends CI_Controller {
 		$this->load->model('posts_model');
 	}
 
-	/*public function index()
-	{
-		$data['title'] = 'Bienvenido';
-		$this->load->view('layout/headers', $data);
-		$this->load->view('welcome_message');
-		$this->load->view('layout/footers');
-	}*/
-
 	public function index(){
 		$data['title'] = 'Bienvenido';
 		$data['posts_tbl'] = $this->posts_model->viewPosts();
+		$this->load->view('layout/heads', $data);
 		$this->load->view('layout/headers');
 		$this->load->view('welcome_message', $data);
 		$this->load->view('layout/footers');
