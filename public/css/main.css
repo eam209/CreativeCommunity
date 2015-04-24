@@ -1,0 +1,123 @@
+body{
+	background-color: #DDD; 
+}
+main{
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 1em 1em 4em 1em;
+}
+
+/*HEADER STYLES*/
+header{
+	position: relative;
+}
+.header, .footer{
+	background-color: #333;
+}
+.header{
+	height: 50px;
+	width: 100%;
+}
+.footer{
+	height: 30px;
+}
+
+/*NAV STYLE*/
+nav{
+	margin: 0;
+	padding: 0.9em 0 0 0;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+}
+.nav ul li{
+	display: inline-block;
+	padding-right: 1.5em;
+}
+.nav ul li a{
+	color: #FFF;
+	font-size: 14px;
+	opacity: 0.7;
+	text-decoration: none;
+}
+	.nav ul li a:hover{
+		opacity: 1;
+	}
+
+/*Login*/
+.login{
+	position: absolute;
+	right: 1em;
+	top: 1.2em;
+}
+.login ul{
+	margin: 0;
+	padding: 0;
+}
+.login ul .first{
+	border-right: 1px solid rgba(255,255,255,0.7) ;
+}
+.login ul li{
+	display: inline-block;
+	padding: 0 1em;
+}
+.login ul li a{
+	color: #FFF;
+	font-size: 14px;
+	opacity: 0.7;
+	text-align: center;
+	text-decoration: none;
+}
+	.login ul li a:hover{
+		opacity: 1;
+	}
+/*LAND PAGE STYLE*/
+
+h1{
+	margin: 3em 0 1em 0;
+	padding-bottom: 1em;
+	border-bottom: 2px solid #BBB;
+}
+
+/*POST STYLE*/
+
+.post h2{
+	background-color: #333;
+	padding: 0.2em 0.5em;
+}
+.post h2 a{
+	color: #CCC;
+	text-decoration: none;
+}
+.post .post-foot{
+	position: relative;
+	height: 35px;
+	background-color: #CCC;
+}
+
+.post .post-foot .autor{
+	position: absolute;
+	left: 1em;
+	top: -0.1em;
+}
+
+.post .post-foot .date{
+	position: absolute;
+	right: 1em;
+	top: 0.6em;
+}
+
+/*FOOTER*/
+
+footer{
+	text-align: center;
+	color: #FFF;
+	padding-top: 0.3em;
+}
+
+
+
+
+
+
